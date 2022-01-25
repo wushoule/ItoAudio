@@ -1,4 +1,4 @@
-This is the demo page for the paper **"KARASINGER: SCORE-FREE SINGING VOICE SYNTHESIS WITH VQ-VAE USING MEL-SPECTROGRAMS"**
+This DEMO mainly introduces It\^oTTS and ItoWave, a new generation of speech synthesis technology based on Ito stochastic differential equations.
 
 
 ## Abstract
@@ -148,7 +148,5 @@ to solve the worlds problems.
 <hr>
 
 ### Contact 
-Chien-Feng Liao: jerrygood0703@gmail.com
-
-This project is developed and supported by <a href="https://ailabs.tw/about-us">Taiwan AI Labs</a>
+wu.shoule@protonmail.com, shiziqiang7@gmail.com, 13621160486
 

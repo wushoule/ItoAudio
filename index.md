@@ -5,10 +5,17 @@ This DEMO mainly introduces ItoTTS and ItoWave, a new generation of speech synth
 ItoTTS and ItoWave are designed to solve the problem of generating speech from text. We propose to use the linear Ito stochastic differential equation, under conditional input, such as original text or original sound features (such as speech mel spectrum), to use the Wiener process as a drive to gradually subtract the excess signal from the noise signal, thereby generating realistic corresponding meaningful speech. This process is a lot like Auguste Rodin carved out the thinker from the original natural stone, using carving techniques and methods to gradually remove the superfluous parts from the natural stone. Our method unifies two important aspects in speech synthesis, namely text-to-speech (TTS) and vocoder (vocoder), in one framework, which we call ItoTTS and ItoWave, respectively. This unified framework consists of two stochastic processes with solutions determined by the linear Ito stochastic differential equation and its corresponding reverse-time Ito stochastic differential equation, respectively. These two stochastic processes, especially the reverse stochastic process, can generate mel features (ItoTTS) under the condition of text input; or generate corresponding continuous sounds (ItoWave) under the condition of mel features. The experimental results show that our subjective audience MOS score reaches the highest level in the world.
 <hr>
 
-### Audio Samples
+### Key modules: Score predictor
 
-We provide short samples from the subjective evalutaion described in the paper and long-length samples.
+There are two key modules of our ItoTTS and ItoWave, one is a deep neural network for predicting the log speech probability density gradient value, and the other is a sampling algorithm based on the gradient value and the inverse Ito stochastic differential equation.
 
+Deep Neural Networks for Predicting Log Speech Probability Density Gradient Values
+
+Predictive network structure in ItoTTS
+
+Prediction network structure in ItoWave
+
+### Audio samples
 
 #### Short samples
 Lyrics:
@@ -63,15 +70,8 @@ Lyrics:
 
 <hr>
 
-#### Long samples with accompaniments
+#### Long samples 
 
-Lyrics: \
-In this paper we propose \
-a novel neural network model \
-called Karaoke singer for a less studied \
-singing voice synthesis task \
-named score-free SVS \
-in which the prosody and melody are spontaneously decided by machine.
 
 <table style='text-align: center;'>
   <tbody>

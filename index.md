@@ -28,12 +28,13 @@ Prediction network structure in ItoWave
 ### Audio samples
 
 #### Short samples
-Lyrics:
-1. Just a small town girl living in a lonely world
-2. She took the midnight train going anywhere
-3. It goes on and on and on and on
-4. She's got a smile that it seems to me
-5. Take a sad song and make it better
+You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corresponding text is as follows:
+
+  1. but they proceeded in all seriousness, and would have shrunk from no outrage or atrocity in furtherance of their foolhardy enterprise.
+               2. three cars for press photographers, an official party bus for white house staff members and others, and two press buses.
+               3. a base station at a fixed location in dallas operated a radio network which linked together the lead car,
+               4. the lifting had been so complete in this case that there was no trace of the print on the rifle itself when it was examined by latona.
+               5. with the active cooperation of the responsible agencies and with the understanding of the people of the united states in their demands upon their president,
 
 <table style='text-align: center;'>
   <tbody>

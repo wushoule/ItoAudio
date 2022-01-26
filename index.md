@@ -13,10 +13,10 @@ Deep Neural Networks for Predicting Log Speech Probability Density Gradient Valu
 
 Predictive network structure in ItoTTS
 
-</p><p class="lead" align="justify">
-                    <img src="src/itotts_arch.jpg" alt="Italian Trulli" width="750px">
-                    <br>  </br> 
-					</p><p class="lead" align="justify">
+	
+<tr>
+    <td><img src="src/itotts_arch.jpg" width="400"></td>
+  </tr>
 
 Prediction network structure in ItoWave
 

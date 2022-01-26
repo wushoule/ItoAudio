@@ -115,14 +115,7 @@ You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corr
   </tfoot>
 </table>
 
-Lyrics: \
-台灣人工智慧實驗室 (Taiwan AI labs) \
-is a privately funded \
-research organization based in Taipei. \
-Our goal is to leverage \
-unique advantages in Taiwan \
-to build AI solutions \
-to solve the worlds problems.
+
 
 <table style='text-align: center;'>
   <tbody>

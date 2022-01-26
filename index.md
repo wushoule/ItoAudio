@@ -1,4 +1,4 @@
-This DEMO mainly introduces It\^oTTS and ItoWave, a new generation of speech synthesis technology based on Ito stochastic differential equations.
+This DEMO mainly introduces ItoTTS and ItoWave, a new generation of speech synthesis technology based on Ito stochastic differential equations.
 
 
 ## Introduction

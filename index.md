@@ -13,17 +13,13 @@ Deep Neural Networks for Predicting Log Speech Probability Density Gradient Valu
 
 Predictive network structure in ItoTTS
 
-</p><p class="lead" align="justify">
+
 <td><img src="src/itotts_arch.jpg" width="750"></td>
-<br>  </br> 
-</p><p class="lead" align="justify">
+
 
 Prediction network structure in ItoWave
 
- </p><p class="lead" align="justify">
 <td><img src="src/itowave_arch.jpg" width="750"></td>
-<br>  </br> 
-</p><p class="lead" align="justify">
   
 ### Audio samples
 
@@ -31,50 +27,56 @@ Prediction network structure in ItoWave
 You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corresponding text is as follows:
 
   1. but they proceeded in all seriousness, and would have shrunk from no outrage or atrocity in furtherance of their foolhardy enterprise.
+               
                2. three cars for press photographers, an official party bus for white house staff members and others, and two press buses.
+               
                3. a base station at a fixed location in dallas operated a radio network which linked together the lead car,
+               
                4. the lifting had been so complete in this case that there was no trace of the print on the rifle itself when it was examined by latona.
+               
                5. with the active cooperation of the responsible agencies and with the understanding of the people of the united states in their demands upon their president,
+
+##### Comparison of synthetic effects between ItoTTS and other TTS systems
 
 <table style='text-align: center;'>
   <tbody>
     <tr>
-      <td></td>
-      <td>KaraSinger</td>
-      <td>3-level</td>
-      <td>noCTC</td>
+      <td>Ground truth</td>
+      <td>FastSpeech 2</td>
+      <td>Tacotron 2</td>
+     <td>ItoTTS</td>
     </tr>
     <tr>
-      <td>Sample 1</td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/proposed/0.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/3level/0.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/noctc/0.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/fastspeech2/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/tacotron2/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itotts/LJ010-0062.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-      <td>Sample 2</td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/proposed/1.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/3level/1.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/noctc/1.wav" type="audio/wav" /></audio></td>
+          <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/fastspeech2/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/tacotron2/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itotts/LJ030-0100.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-      <td>Sample 3</td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/proposed/2.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/3level/2.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/noctc/2.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/fastspeech2/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/tacotron2/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itotts/LJ030-0106.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-      <td>Sample 4</td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/proposed/3.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/3level/3.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/noctc/3.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/fastspeech2/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/tacotron2/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itotts/LJ010-0062.wav" type="audio/wav" /></audio></td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td>Sample 5</td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/proposed/4.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/3level/4.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 160px;height: 50px"><source src="./assets/audios/noctc/4.wav" type="audio/wav" /></audio></td>
+        <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/fastspeech2/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/tacotron2/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itotts/LJ010-0062.wav" type="audio/wav" /></audio></td>
     </tr>
   </tfoot>
 </table>

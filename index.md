@@ -83,6 +83,62 @@ You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corr
 
 <hr>
 
+##### Synthesis effect comparison between ItoWave and other vocoder systems
+<table style='text-align: center;'>
+  <tbody>
+    <tr>
+      <td>Ground truth</td>
+      <td>WaveNet</td>
+      <td>WaveGlow</td>
+     <td>DiffWave</td>
+      <td>WaveGrad</td>
+      <td>ItoWave</td>
+    </tr>
+    <tr>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+    <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+   <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+    </tr>
+    <tr>
+   <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+   <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 160px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+    </tr>
+  </tfoot>
+</table>
+
 #### Long samples 
 
 

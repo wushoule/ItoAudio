@@ -164,8 +164,7 @@ Beijing took multiple measures on Monday to cope with the heaviest rain to hit t
 ### The diffusion generation
 The process by which ItoTTS and ItoWave turn white noise into meaningful speech. With "to be or not to be, this is a big problem" as the input text, ItoTTS gradually generates the corresponding mel spectrogram from the Gaussian noise signal
 
-<td><img src="src/tobe_itotts_step1.png" width="500"></td>
-<td><img src="src/tobe_itotts_step100.png" width="500"></td>
+<td><img src="src/tobe_itotts_step1.png" width="500"></td> <td><img src="src/tobe_itotts_step100.png" width="500"></td>
 <td><img src="src/tobe_itotts_step200.png" width="500"></td>
 <td><img src="src/tobe_itotts_step300.png" width="500"></td>
 <td><img src="src/tobe_itotts_step400.png" width="500"></td>

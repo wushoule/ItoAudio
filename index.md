@@ -164,50 +164,33 @@ Beijing took multiple measures on Monday to cope with the heaviest rain to hit t
 ### The diffusion generation
 The process by which ItoTTS and ItoWave turn white noise into meaningful speech. With "to be or not to be, this is a big problem" as the input text, ItoTTS gradually generates the corresponding mel spectrogram from the Gaussian noise signal
 
-<table style='text-align: center;'>
-  <tbody>
-    <tr>
-<td><img src="src/tobe_itotts_step100.png" width="200"></td>
-<td><img src="src/tobe_itotts_step200.png" width="200"></td>
-<td><img src="src/tobe_itotts_step300.png" width="200"></td>
-<td><img src="src/tobe_itotts_step400.png" width="200"></td>
-<td><img src="src/tobe_itotts_step500.png" width="200"></td>
-    </tr>
-    <tr>
-<td><img src="src/tobe_itotts_step600.png" width="200"></td>
-<td><img src="src/tobe_itotts_step700.png" width="200"></td>
-<td><img src="src/tobe_itotts_step800.png" width="200"></td>
-<td><img src="src/tobe_itotts_step900.png" width="200"></td>
-<td><img src="src/tobe_itotts_step1000.png" width="200"></td>
-    </tr>
-  </tbody>
-</table>
 
-<td><img src="src/tobe_itotts_step1.png" width="200"></td> 
-<td><img src="src/tobe_itotts_step100.png" width="200"></td>
-<td><img src="src/tobe_itotts_step200.png" width="200"></td>
-<td><img src="src/tobe_itotts_step300.png" width="200"></td>
-<td><img src="src/tobe_itotts_step400.png" width="200"></td>
-<td><img src="src/tobe_itotts_step500.png" width="200"></td>
-<td><img src="src/tobe_itotts_step600.png" width="200"></td>
-<td><img src="src/tobe_itotts_step700.png" width="200"></td>
-<td><img src="src/tobe_itotts_step800.png" width="200"></td>
-<td><img src="src/tobe_itotts_step900.png" width="200"></td>
-<td><img src="src/tobe_itotts_step1000.png" width="200"></td>
+
+<td><img src="src/tobe_itotts_step1.png" width="300"></td> 
+<td><img src="src/tobe_itotts_step100.png" width="300"></td>
+<td><img src="src/tobe_itotts_step200.png" width="300"></td>
+<td><img src="src/tobe_itotts_step300.png" width="300"></td>
+<td><img src="src/tobe_itotts_step400.png" width="300"></td>
+<td><img src="src/tobe_itotts_step500.png" width="300"></td>
+<td><img src="src/tobe_itotts_step600.png" width="300"></td>
+<td><img src="src/tobe_itotts_step700.png" width="300"></td>
+<td><img src="src/tobe_itotts_step800.png" width="300"></td>
+<td><img src="src/tobe_itotts_step900.png" width="300"></td>
+<td><img src="src/tobe_itotts_step1000.png" width="300"></td>
 
 Taking the spectrum of the sentence LJ032-0167 in LJSpeech as input, ItoWave gradually generates the corresponding speech from the Gaussian noise signal. The corresponding text is "he concluded, quote, there is no doubt in my mind that these fibers could have come from this shirt."
 
-<td><img src="src/predicted_LJ032-0167_step1.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step100.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step200.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step300.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step400.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step500.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step600.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step700.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step800.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step900.png" width="200"></td>
-<td><img src="src/predicted_LJ032-0167_step1000.png" width="200"></td>
+<td><img src="src/predicted_LJ032-0167_step1.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step100.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step200.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step300.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step400.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step500.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step600.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step700.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step800.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step900.png" width="300"></td>
+<td><img src="src/predicted_LJ032-0167_step1000.png" width="300"></td>
 
 
 <hr>

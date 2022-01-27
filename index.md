@@ -95,82 +95,65 @@ You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corr
       <td>ItoWave</td>
     </tr>
     <tr>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavenet/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/waveglow/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/diffwave/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ010-0062.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/itowave/LJ010-0062.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-    <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0100.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavenet/LJ030-0100.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/waveglow/LJ030-0100.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/diffwave/LJ030-0100.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ030-0100.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/itowave/LJ030-0100.wav" type="audio/wav" /></audio></td>
+    <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavenet/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/waveglow/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/diffwave/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ030-0100.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/itowave/LJ030-0100.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-   <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0106.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavenet/LJ030-0106.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/waveglow/LJ030-0106.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/diffwave/LJ030-0106.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ030-0106.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/itowave/LJ030-0106.wav" type="audio/wav" /></audio></td>
+   <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavenet/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/waveglow/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/diffwave/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ030-0106.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/itowave/LJ030-0106.wav" type="audio/wav" /></audio></td>
     </tr>
     <tr>
-   <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ032-0137.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavenet/LJ032-0137.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/waveglow/LJ032-0137.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/diffwave/LJ032-0137.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ032-0137.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/itowave/LJ032-0137.wav" type="audio/wav" /></audio></td>
+   <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavenet/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/waveglow/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/diffwave/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ032-0137.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/itowave/LJ032-0137.wav" type="audio/wav" /></audio></td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-   <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ050-0277.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavenet/LJ050-0277.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/waveglow/LJ050-0277.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/diffwave/LJ050-0277.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ050-0277.wav" type="audio/wav" /></audio></td>
-      <td><audio controls="" style="width: 240px;height: 50px"><source src="src/waves_for_github/itowave/LJ050-0277.wav" type="audio/wav" /></audio></td>
+   <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/groundtruth/LJ050-0277.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavenet/LJ050-0277.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/waveglow/LJ050-0277.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/diffwave/LJ050-0277.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/wavegrad/LJ050-0277.wav" type="audio/wav" /></audio></td>
+      <td><audio controls="" style="width: 110px;height: 50px"><source src="src/waves_for_github/itowave/LJ050-0277.wav" type="audio/wav" /></audio></td>
     </tr>
   </tfoot>
 </table>
 
 #### Long samples 
 
+ItoTTS can synthesizes very long speech, e.g. one piece of news from ``China Daily'' about 7.12 Beijing Heavy Rain: 
+
+Beijing took multiple measures on Monday to cope with the heaviest rain to hit the capital this year. The downpours, along with strong winds, started on Sunday night and are forecast to last until Tuesday morning. From 6 pm on Sunday to 7 pm on Monday, an average of 100.4 millimeters of rain fell across the capital, according to the city's meteorological bureau. However, by late Monday afternoon there was no deep surface water on major roads in urban areas, after city authorities activated pumping stations. Flood warnings were also issued for residents of high-risk areas. Kindergartens and primary and secondary schools in the city suspended classes on Monday and company employees were encouraged to work from home or alter their travel times.
 
 <table style='text-align: center;'>
   <tbody>
     <tr>
-      <td></td>
-      <td>KaraSinger</td>
+      <td>ItoTTS</td>
     </tr>
     <tr>
-      <td>Sample 1</td>
-      <td><audio controls=""><source src="./assets/audios/long/lyrics1/temp0.wav" type="audio/wav" /></audio></td>
-    </tr>
-    <tr>
-      <td>Sample 2</td>
-      <td><audio controls=""><source src="./assets/audios/long/lyrics1/temp1.wav" type="audio/wav" /></audio></td>
-    </tr>
-    <tr>
-      <td>Sample 3</td>
-      <td><audio controls=""><source src="./assets/audios/long/lyrics1/temp2.wav" type="audio/wav" /></audio></td>
-    </tr>
-    <tr>
-      <td>Sample 4</td>
-      <td><audio controls=""><source src="./assets/audios/long/lyrics1/temp3.wav" type="audio/wav" /></audio></td>
+      <td><audio controls=""><source src="src/beijing_rain.wav" type="audio/wav" /></audio></td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td>Sample 5</td>
-      <td><audio controls=""><source src="./assets/audios/long/lyrics1/temp4.wav" type="audio/wav" /></audio></td>
-    </tr>
-  </tfoot>
 </table>
 
 

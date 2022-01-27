@@ -3,23 +3,20 @@ This DEMO introduces ItoTTS and ItoWave, a new generation of speech synthesis te
 <hr>
 
 ### Overview
-ItoTTS and ItoWave are designed to solve the problem of generating speech from text. We propose to use the linear Ito stochastic differential equation, under conditional input, such as original text or original voice features (such as mel spectrogram), to employ the Wiener process as a drive to gradually subtract the excess signal from the noise signal, thereby generating realistic corresponding meaningful speech. This process is like Auguste Rodin carved out the thinker from the original natural stone. He uses carving techniques and methods to gradually remove the superfluous parts from the natural stone. Our method can deal with both important aspects in speech synthesis, namely text-to-speech (TTS) and vocoder, in the same framework, which we call ItoTTS and ItoWave, respectively. This unified framework consists of two stochastic processes with solutions determined by the linear Ito stochastic differential equation and its corresponding reverse-time Ito stochastic differential equation, respectively. These two stochastic processes, especially the reverse stochastic process, can generate mel features (ItoTTS) under the condition of text input; or generate corresponding waveform (ItoWave) under the condition of mel spectrogram. The experimental results show that our subjective  MOS  reaches the best in the world.
+ItoTTS and ItoWave are designed to solve the problem of generating speech from text. ItoTTS and ItoWave are based on linear Ito stochastic differential equation. Under conditional input, such as original text or original voice features (such as mel spectrogram), to employ the Wiener process as a drive to gradually subtract the excess signal from the noise signal, thereby generating realistic corresponding meaningful speech. This process is like Auguste Rodin carved out "the thinker" from the original natural stone. He uses carving techniques and methods to gradually remove the superfluous parts from the natural stone. Our method can deal with both important aspects in speech synthesis, namely text-to-speech (TTS) and vocoder, in the same framework, which we call ItoTTS and ItoWave, respectively. This same framework consists of two stochastic processes, which are pair solutions determined by the linear Ito stochastic differential equation and its corresponding reverse-time Ito stochastic differential equation, respectively. These two stochastic processes, especially the reverse stochastic process, can generate mel features under the condition of text input(ItoTTS); or generate corresponding waveform under the condition of mel spectrogram(ItoWave). The experimental results show that our MOS reaches the best in the world.
 
 <hr>
 
 ### The key module: Score predictor
 
-The most important module of our ItoTTS and ItoWave is a deep neural network for predicting the log speech probability density gradient value, and the other is a sampling algorithm based on the gradient value and the inverse Ito stochastic differential equation.
+The most important module of our ItoTTS and ItoWave is a deep neural network for predicting the log density gradient (a.k.a. score) of speech data.
 
-Deep Neural Networks for Predicting Log Speech Probability Density Gradient Values
-
-Predictive network structure in ItoTTS
-
+Mel spectrogram score prediction network structure in ItoTTS is shown in the following figure
 
 <td><img src="src/itotts_arch.jpg" width="750"></td>
 
 
-Prediction network structure in ItoWave
+Wave score prediction network structure in ItoWave is is shown in the following figure
 
 <td><img src="src/itowave_arch.jpg" width="750"></td>
 
@@ -27,8 +24,11 @@ Prediction network structure in ItoWave
 
 ### Audio samples
 
+You can listen to some sound samples synthesized by ItoTTS and ItoWave. 
+
 #### Short samples
-You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corresponding text is as follows:
+
+The corresponding texts are as follows:
 
 1. but they proceeded in all seriousness, and would have shrunk from no outrage or atrocity in furtherance of their foolhardy enterprise.
                
@@ -144,7 +144,7 @@ You can listen to some sound samples synthesized by ItoTTS and ItoWave. The corr
 
 #### Long samples 
 
-ItoTTS can synthesizes very long speech, e.g. one piece of news from ``China Daily'' about 7.12 Beijing Heavy Rain: 
+ItoTTS can synthesizes very long speech, e.g. one piece of news from "China Daily" about 7.12 Beijing Heavy Rain: 
 
 Beijing took multiple measures on Monday to cope with the heaviest rain to hit the capital this year. The downpours, along with strong winds, started on Sunday night and are forecast to last until Tuesday morning. From 6 pm on Sunday to 7 pm on Monday, an average of 100.4 millimeters of rain fell across the capital, according to the city's meteorological bureau. However, by late Monday afternoon there was no deep surface water on major roads in urban areas, after city authorities activated pumping stations. Flood warnings were also issued for residents of high-risk areas. Kindergartens and primary and secondary schools in the city suspended classes on Monday and company employees were encouraged to work from home or alter their travel times.
 
@@ -162,9 +162,10 @@ Beijing took multiple measures on Monday to cope with the heaviest rain to hit t
 <hr>
 
 ### The diffusion generation
-The process by which ItoTTS and ItoWave turn white noise into meaningful speech. With "to be or not to be, this is a big problem" as the input text, ItoTTS gradually generates the corresponding mel spectrogram from the Gaussian noise signal
 
+Here we give two examples of the diffusion process by which ItoTTS and ItoWave turn white noise into meaningful speech. 
 
+With "to be or not to be, this is a big problem" as the conditional input text, ItoTTS gradually generates the corresponding mel spectrogram from the Gaussian noise signal.
 
 <td><img src="src/tobe_itotts_step1.png" width="260"></td> 
 <td><img src="src/tobe_itotts_step100.png" width="260"></td>
@@ -178,7 +179,7 @@ The process by which ItoTTS and ItoWave turn white noise into meaningful speech.
 <td><img src="src/tobe_itotts_step900.png" width="260"></td>
 <td><img src="src/tobe_itotts_step1000.png" width="260"></td>
 
-Taking the spectrum of the sentence LJ032-0167 in LJSpeech as input, ItoWave gradually generates the corresponding speech from the Gaussian noise signal. The corresponding text is "he concluded, quote, there is no doubt in my mind that these fibers could have come from this shirt."
+Taking the spectrogram of the sentence LJ032-0167 in LJSpeech as input, ItoWave gradually generates the corresponding waveform from the Gaussian noise signal. The corresponding text is "he concluded, quote, there is no doubt in my mind that these fibers could have come from this shirt."
 
 <td><img src="src/predicted_LJ032-0167_step1.png" width="260"></td>
 <td><img src="src/predicted_LJ032-0167_step100.png" width="260"></td>

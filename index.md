@@ -199,6 +199,8 @@ Taking the spectrogram of the sentence LJ032-0167 in LJSpeech as input, ItoWave 
 
 [1]. Shoule Wu, Ziqiang Shi. ITOWAVE: ITO STOCHASTIC DIFFERENTIAL EQUATION IS ALL YOU NEED FOR WAVE GENERATION. ICASSP 2022.
 
+[2]. Shoule Wu, Ziqiang Shi. ItoTTS and ItoWave: Linear Stochastic Differential Equation Is All You Need For Audio Generation. https://arxiv.org/abs/2105.07583
+
 <hr>
 ### Contact 
 Shoule Wu (wu.shoule@protonmail.com), Ziqiang Shi (shiziqiang7@gmail.com, 13621160486)

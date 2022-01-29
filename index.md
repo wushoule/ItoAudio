@@ -195,7 +195,11 @@ Taking the spectrogram of the sentence LJ032-0167 in LJSpeech as input, ItoWave 
 
 
 <hr>
+### Related papers
 
+[1]. Shoule Wu, Ziqiang Shi. ITOWAVE: ITO STOCHASTIC DIFFERENTIAL EQUATION IS ALL YOU NEED FOR WAVE GENERATION. ICASSP 2022.
+
+<hr>
 ### Contact 
-wu.shoule@protonmail.com, shiziqiang7@gmail.com, 13621160486
+Shoule Wu (wu.shoule@protonmail.com), Ziqiang Shi (shiziqiang7@gmail.com, 13621160486)
 
